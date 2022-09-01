@@ -76,15 +76,34 @@ amount of (1) processing and (2) memory.  Describe your command(s)
 in your writeup.
 
 ### Solution
-
-
+I used the command: ```htop ```
+which allows a user to interactively monitor a  computers vital resources in real time using a graphical interface and sort by different criteria such as memory and processor allocation after clicking F6.
+I thought this was ideal rather than using the ```top ```  which does not update constantly in real-time, ``` top -i ``` which updates in real time but like ```top ``` still requires you to remember which button to press on the keyboard to sort by each resource criteria.
 
 ## Problem 5 -- `bash`
 
 ### Statement
 
-Where is `bash` located on your Linux system?  And what version of
-`bash` are you using?  Make sure to provide any commands you use to
+Part A: Where is `bash` located on your Linux system? 
+Part B: what version of `bash` are you using?  
+Make sure to provide any commands you use to
 determine this information.
 
 ### Solution
+Part A Input:
+```bash
+which bash
+```
+Part A Output:
+```bash
+/usr/bin/bash
+```
+the ```which``` command locates commands in your directory path. 
+This command can be uses to locate bash as well as any other shell command located on    your computer.
+
+Part B Input: 
+```bash
+bash --version
+```
+Part B Output: 
+
