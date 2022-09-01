@@ -53,11 +53,18 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 
 ### Solution
 
-To display CPU information, I used the following command:
-
+To display CPU information, I used the following:
 ```bash
-ls -al # <--- that's not right, but it shows you how to include
-       #      code in Markdown!
+Command:
+       lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)
+Output:
+       (base) scoofdaddy@DESKTOP-IPC2HNA:/mnt/c/WINDOWS/system32$ lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)'
+       CPU(s):                          8
+       On-line CPU(s) list:             0-7
+       Model name:                      Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+       Thread(s) per core:              2
+       Socket(s):                       1
+       (base) scoofdaddy@DESKTOP-IPC2HNA:/mnt/c/WINDOWS/system32$
 ```
 
 ## Problem 4 -- Resource Hogs
