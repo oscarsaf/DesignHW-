@@ -26,6 +26,13 @@ describe anything already discussed in class (e.g., the LibreOffice suite
 or Octave).
 
 ### Solution
+During ME 400 I coded daily using VSCode. 
+The source code for VSCode is availible under the MIT Licesnse and is therefore open source, 
+but the binary code you donwnload from microsoft is not.
+the code reports telemetry, tracks usage, errors, and provides information for future updates to the IDE.
+I am not always the happiest with "Big Brother" looking over my shoulder so I looked into an fully open source alternative.
+I found one called VSCodium which is pretty identical and has compatability with the microsoft version but does not send out telemetry.
+
 
 Write your solution here.  Note, in the past, we've used a full, graphical
 version of Linux.  With WSL, you probably don't have as direct a path for
