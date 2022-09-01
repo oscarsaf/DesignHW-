@@ -27,7 +27,7 @@ or Octave).
 
 ### Solution
 During ME 400 I coded daily using VSCode. 
-The source code for VSCode is availible under the MIT Licesnse and is therefore open source, 
+The source code for VSCode is availible under the MIT License and is therefore open source, 
 but the binary code you donwnload from microsoft is not.
 the code reports telemetry, tracks usage, errors, and provides information for future updates to the IDE.
 I am not always the happiest with "Big Brother" looking over my shoulder so I looked into an fully open source alternative.
