@@ -24,6 +24,12 @@ source code is available, I could, in theory,
 create any such whistles I need.  **Note**: You may not
 describe anything already discussed in class (e.g., the LibreOffice suite
 or Octave).
+### Professor's Note
+Write your solution here.  Note, in the past, we've used a full, graphical
+version of Linux.  With WSL, you probably don't have as direct a path for
+exploring software in the Software Manager.  However, use the power of
+Google (or AskJeeves) to explore what sorts of open-source software is out
+there for technical or other applications.
 
 ### Solution
 During ME 400 I coded daily using VSCode. 
@@ -34,11 +40,6 @@ I am not always the happiest with "Big Brother" looking over my shoulder so I lo
 I found one called VSCodium which is pretty identical and has compatability with the microsoft version but does not send out telemetry.
 
 
-Write your solution here.  Note, in the past, we've used a full, graphical
-version of Linux.  With WSL, you probably don't have as direct a path for
-exploring software in the Software Manager.  However, use the power of
-Google (or AskJeeves) to explore what sorts of open-source software is out
-there for technical or other applications.
 
 
 ## Problem 3 -- Your CPU
@@ -53,18 +54,21 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 
 ### Solution
 
-To display CPU information, I used the following:
+To display CPU information, I used the following Command:
+
+Input:
 ```bash
-Command:
-       lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)
+lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)
+```
 Output:
-       (base) scoofdaddy@DESKTOP-IPC2HNA:/mnt/c/WINDOWS/system32$ lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)'
-       CPU(s):                          8
-       On-line CPU(s) list:             0-7
-       Model name:                      Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
-       Thread(s) per core:              2
-       Socket(s):                       1
-       (base) scoofdaddy@DESKTOP-IPC2HNA:/mnt/c/WINDOWS/system32$
+```bash
+(base) scoofdaddy@DESKTOP-IPC2HNA:/mnt/c/WINDOWS/system32$ lscpu | egrep 'Model name|Socket|Thread|NUMA|CPU\(s\)'
+CPU(s):                          8
+On-line CPU(s) list:             0-7
+Model name:                      Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+Thread(s) per core:              2
+Socket(s):                       1
+(base) scoofdaddy@DESKTOP-IPC2HNA:/mnt/c/WINDOWS/system32$
 ```
 
 ## Problem 4 -- Resource Hogs
@@ -94,17 +98,20 @@ Part A Input:
 ```bash
 which bash
 ```
+the ```which``` command locates commands in your directory path. 
+This command can be uses to locate bash as well as any other shell command located on your computer.
+
 Part A Output:
 ```bash
 /usr/bin/bash
 ```
-the ```which``` command locates commands in your directory path. 
-This command can be uses to locate bash as well as any other shell command located on    your computer.
-
 Part B Input: 
 ```bash
 bash --version
 ```
+
+This command locates the version information located inside the directory of the bash shell command.
+
 Part B Output: 
 ```bash
 GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
