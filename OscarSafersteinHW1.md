@@ -110,7 +110,8 @@ Part B Input:
 bash --version
 ```
 
-This command locates the version information located inside the directory of the bash shell command.
+This command locates the version information located inside the directory of the bash shell command. it outputs version information and exits. Found it on pg 45 of Linux command line.
+
 
 Part B Output: 
 ```bash
