@@ -1,0 +1,93 @@
+# M 08/24/22
+## Preparation
+To prepare for this lesson, I made sure my WSL & Ubuntu was functioning and that my password and username were created. 
+## Contribution
+I showed up to lecture, brought my yellow/blue card, and proceeded to listen about checkup one. Took notes on Linux and GNU
+## GNU 
+Contains compilers for C, C++, to edit kernels.
+## Dual Boot
+Not any more because boot process changes
+## Virtual Machine
+VM - Used to use VirtualBox instead of windows WSL 
+## Old Hardware
+Lightweight versions of Ubuntu brings back old machines to life.
+## Licenses
+"Shipping out binary" - After compiled, executable, shared libraries used in executions
+In GNU Limits usability
+Anything from GNU must be published including headers.
+TiVo - Was based on LINUX -Used GNU- Did not follow License SO got in trouble
+GNU -General Public License Skim
+MIT License - Give credit.
+Value of code - Intellectual, Commercial --ease of access and modification gives value.
+## Useful Commands for Ubuntu
+apt - aptitude
+sudo apt install octave
+sudo apt update 
+Look up Ubuntu Science Software.
+Pioneers: find because similar to Catan.vs
+Start Octave: type octave
+## Libre Office
+Libre- Free, Word editor/ 1997 Simpler
+More intuitive than word
+## VSCode
+Remove Brockhoff version of VSCode and use the default
+DO Before next week.
+## Muddy Water
+It is now the second day so my prepwork and setup of my system is hopefully adequate. But I am concerned that I may run into an issue 
+## Next Week Prep
+linux has to be ready -- Ubuntu
+Skim the Linux command line pg 1-124
+Start a cheat sheet of the commands that appear to be useful. FIll in the details on the fly or in person.
+
+# M 08/26/22
+## Preparation
+Created a Github Account.
+Played around with the Linux Command Line
+## Before Lecture
+Have a machine with Linux installed
+Read Linux and the GNU System (Links to an external site.)
+Skim GNU General Public License (Links to an external site.)
+Skim MIT License (Links to an external site.)
+Skim Qt and its Open-Source License Option
+## During Lecture
+Address any issues with Linux installation.
+Discuss origin of Linux (the kernel) and GNU (the operating system).
+Install one or more open-source packages using the software manager or the apt utility.
+Install VS Code. Students who have VS Code from ME 400 may have issues unless a new version is installed.
+## Next Week Prep
+Start working on HW #1 on Github
+Code is trivial
+The process is what is important
+
+# 08/29/2022
+## Preparation
+Skimmed the 125 page reading which was interesting but I  need to dive deeper into it for a second run.
+## Things to ask professor Roberts
+VSCode - Full uninstall.
+## Prepare for next session
+Try to get myself as prepared as possible before class so I do not hold up the class on small issues. For the most part I just need to become more organized in my notes and not have stuff strewn about on my computer.
+Fresh install of VSCode
+Dig deeper into the reading and resources 
+Linux Command Line 1-125 still
+
+# 08/31/2022
+
+## Preparation
+Read some of the Linux Command Line. 
+Did a fresh Install of VSCode.
+I am not on the ball today because I am stressing out over dropping Nuclear Shielding.
+
+## Big Takeaways
+I learned that the terminal that we use for WSL uses bash
+Bash has a large amount of user interaction.
+Learned that Python is now the largest code language used.
+Web developers and IT use Javascript.
+Python will be used for quite some time.
+
+## After Class
+Start HW Problems and try to document in a legible form how and where I got my answers.
+
+
+
+
+
